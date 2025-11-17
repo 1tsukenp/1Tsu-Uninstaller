@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>1TsuUninstaller</id>
+    <version>1.0.0</version>
+    <authors>KenpSoft</authors>
+    <owners>1tsukenp</owners>
+    <licenseUrl>https://github.com/1tsukenp/1Tsu-Uninstaller/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/1tsukenp/1Tsu-Uninstaller</projectUrl>
+    <iconUrl>https://github.com/1tsukenp.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>1Tsu Uninstaller is a Windows desktop utility (WPF) for viewing, managing, and removing installed applications. It reads the standard Windows uninstall registry keys and presents your installed programs in a clean, sortable UI with advanced removal options.</description>
+    <releaseNotes>
+      Initial release of 1Tsu Uninstaller v1.0.0
+      
+      Features:
+      - Modern WPF interface with banner, summary bar, and sortable grid
+      - Full installed apps list from registry keys
+      - Search and filter capabilities
+      - Toggle between All apps and Microsoft apps only
+      - Standard uninstall functionality
+      - Advanced Force Remove feature for stubborn applications
+      
+      Warning: The Force Remove feature can permanently delete files and registry entries. Use it carefully and at your own risk.
+    </releaseNotes>
+    <summary>A comprehensive software removal and system cleanup utility for Windows</summary>
+    <language>en-US</language>
+    <tags>uninstaller utility windows cleanup software-management</tags>
+    <dependencies>
+      <dependency id=".NETFramework4.8" version="[4.8]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="1Tsu Uninstaller.rar" target="tools" />
+  </files>
+</package>
