@@ -153,6 +153,6 @@ This information is embedded in the assembly metadata and appears in the EXE fil
 
 If you like this project and want to support development, consider buying me a coffee:
 
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/1tsukenp)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/1tsukenp) [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/1tsu)
 
 Your support helps me keep improving this tool and creating more useful utilities!
