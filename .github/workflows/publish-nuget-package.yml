@@ -1,0 +1,39 @@
+name: Publish NuGet Package
+
+on:
+  release:
+    types: [created, published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+      
+      - name: Get Release Version
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+      
+      - name: Build NuGet Package
+        run: |
+          # Install NuGet CLI
+          dotnet tool install -g nuget.commandline
+          
+          # Pack the NuGet package
+          nuget pack 1TsuUninstaller.nuspec -Version ${{ steps.get_version.outputs.VERSION }}
+      
+      - name: Publish to GitHub Packages
+        run: |
+          nuget push "*.nupkg" \
+            -Source https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json \
+            -ApiKey ${{ secrets.GITHUB_TOKEN }} \
+            -SkipDuplicate
