@@ -154,6 +154,6 @@ This information is embedded in the assembly metadata and appears in the EXE fil
 If you like this project and want to support development, consider buying me a coffee:
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/1tsukenp)
-<a href="https://www.buymeacoffee.com/1Tsu"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=1Tsu&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+[https://buymeacoffee.com/1Tsu](https://buymeacoffee.com/1Tsu)
 
 Your support helps me keep improving this tool and creating more useful utilities!
