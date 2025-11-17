@@ -172,3 +172,11 @@ Per-action errors (e.g., failing to open a folder, website, or registry key) are
 - **Copyright:** © KenpSoft
 
 This information is embedded in the assembly metadata and appears in the EXE file properties (Details tab).
+
+## Support
+
+If you like this project and want to support development, consider buying me a coffee:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/1tsukenp)
+
+Your support helps me keep improving this tool and creating more useful utilities!
