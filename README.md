@@ -129,30 +129,6 @@ Because of these operations, running as Administrator is often necessary for ful
 
 ---
 
-## Technical Details
-
-- **Project type:** WPF (`WinExe`)
-- **Target framework:** `net8.0-windows`
-- **Language:** C#
-- **Namespaces:**
-  - `OneTsuUninstaller` – main UI and application logic
-  - `OneTsuUninstaller.Models` – data model for installed apps
-  - `OneTsuUninstaller.Services` – registry reading and force-removal services
-- **Registry locations scanned:**
-  - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
-  - `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall`
-  - `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
-
-### Main components
-
-- `MainWindow` – main UI: app list, menu, search, context menu, and summary.
-- `InstalledApp` – model representing an installed application (name, publisher, install path, uninstall string, registry path, install date, size, URLs, etc.).
-- `InstalledAppsReader` – static service that enumerates installed apps from the registry and builds `InstalledApp` objects.
-- `ForceRemover` – static service implementing the Force Remove workflow (kill processes, delete folders, clean registry and leftovers).
-- `AppPropertiesWindow` – dialog that shows detailed properties of a selected app.
-- `App` – application-level exception handler that shows a friendly error dialog and shuts down on unhandled exceptions.
-
----
 
 ## Error Handling
 
