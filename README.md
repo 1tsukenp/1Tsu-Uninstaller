@@ -7,6 +7,11 @@
 
 ---
 
+## Interface
+
+![1Tsu Uninstaller UI](screenshots/1.png)
+
+
 ## Features
 
 - **Modern WPF interface** with banner, summary bar, and sortable grid
