@@ -9,7 +9,7 @@
 
 ## Interface
 
-![1Tsu Uninstaller UI](screenshots/1.png)
+![1Tsu Uninstaller UI](screenshots/1.PNG)
 
 
 ## Features
